@@ -12,7 +12,7 @@ public class EasyGUI {
 
     public EasyGUI(String title, int size, HashMap<EasyItem, Integer> items) {
 
-        inventory = Bukkit.createInventory(null, size, title);
+        inventory = Bukkit.createInventory(null, size, Colorize.color(title));
 
         for (Map.Entry<EasyItem, Integer> entry : items.entrySet()) {
 
