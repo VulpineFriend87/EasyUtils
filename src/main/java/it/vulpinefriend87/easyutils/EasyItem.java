@@ -1,6 +1,5 @@
 package it.vulpinefriend87.easyutils;
 
-import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
