@@ -1,5 +1,7 @@
 # EasyUtils
 
+Spice up your projects with this easy-to-use api. This will be updated a lot, adding more and more cool features, so stay updated!
+
 ## Maven
 ### Repository
 ```
