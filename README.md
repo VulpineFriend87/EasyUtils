@@ -1,14 +1,14 @@
 # EasyUtils
 
 ## Maven
-# Repository
+### Repository
 ```
 <repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
 </repository>
 ```
-# Dependency
+### Dependency
 ```
 <dependency>
     <groupId>com.github.User</groupId>
