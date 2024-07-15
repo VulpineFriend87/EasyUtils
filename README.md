@@ -11,8 +11,8 @@
 ### Dependency
 ```
 <dependency>
-    <groupId>com.github.User</groupId>
-    <artifactId>Repo</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.VulpineFriend87</groupId>
+    <artifactId>EasyUtils</artifactId>
+    <version>1.1</version>
 </dependency>
 ```
