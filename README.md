@@ -15,7 +15,7 @@ Spice up your projects with this easy-to-use api. This will be updated a lot, ad
 <dependency>
     <groupId>com.github.VulpineFriend87</groupId>
     <artifactId>EasyUtils</artifactId>
-    <version>1.1</version>
+    <version>LASTEST-VERSION</version>
 </dependency>
 ```
 ## How to use
