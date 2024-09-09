@@ -43,5 +43,3 @@ Inventory inventory = gui.getInventory();
 ```
 
 That's all for now, stay tuned for cool updates!
-
-Big thanks to *fatleoo_0* for helping me test this api. ❤️
