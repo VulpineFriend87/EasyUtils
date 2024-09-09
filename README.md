@@ -1,3 +1,9 @@
+
+<p align="center">
+    <img src="https://i.postimg.cc/Vkx0yGJB/Easy.png">
+</p>
+
+---
 # EasyUtils
 
 Spice up your projects with this easy-to-use api.
