@@ -1,16 +1,21 @@
+
+<p align="center">
+    <img src="https://i.postimg.cc/Vkx0yGJB/Easy.png">
+</p>
+
+---
 # EasyUtils
 
 Spice up your projects with this easy-to-use api.
 
-## Maven
-### Repository
+## Import the API in your project
+### Maven
 ```
 <repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
 </repository>
 ```
-### Dependency
 ```
 <dependency>
     <groupId>com.github.VulpineFriend87</groupId>
@@ -18,6 +23,22 @@ Spice up your projects with this easy-to-use api.
     <version>LASTEST-VERSION</version>
 </dependency>
 ```
+### Gradle
+```
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```
+dependencies {
+        implementation 'com.github.VulpineFriend87:EasyUtils:1.2-FIX'
+}
+```
+
 ## How to use
 ### EasyItem
 This is an easier way of making ItemStacks, that are normally really painful to make (5+ lines of code), but now with EasyItems it becomes a lot simpler. You will just need 2 (or even 1) lines of code to make a functional ItemStack. In this example I created  a chest ItemStack.
@@ -43,5 +64,3 @@ Inventory inventory = gui.getInventory();
 ```
 
 That's all for now, stay tuned for cool updates!
-
-Big thanks to *fatleoo_0* for helping me test this api. ❤️
