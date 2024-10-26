@@ -5,7 +5,7 @@ import net.md_5.bungee.api.chat.HoverEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 
 public class EasyMessage {
-    private TextComponent textComponent;
+    private final TextComponent textComponent;
 
     public EasyMessage(String message) {
         textComponent = new TextComponent(Colorize.color(message));

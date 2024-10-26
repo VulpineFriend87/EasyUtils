@@ -11,7 +11,7 @@ import java.util.List;
 
 public class EasyItem {
 
-    private ItemStack itemStack;
+    private final ItemStack itemStack;
 
     public EasyItem(Material material, String displayName, List<String> lore) {
 
