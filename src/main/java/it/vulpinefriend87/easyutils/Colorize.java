@@ -2,6 +2,7 @@ package it.vulpinefriend87.easyutils;
 
 import net.md_5.bungee.api.ChatColor;
 
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -11,6 +12,19 @@ public class Colorize {
 
     public static String color(final String message) {
         return translateHexColorCodes(ChatColor.translateAlternateColorCodes('&', message));
+    }
+
+    public static String[] color(final String[] message) {
+        String[] colored = new String[message.length];
+        for (int i = 0; i < message.length; i++) {
+            colored[i] = color(colored[i]);
+        }
+        return colored;
+    }
+
+    public static List<String> color(final List<String> message) {
+        message.replaceAll(Colorize::color);
+        return message;
     }
 
     public static String translateHexColorCodes(final String message) {
